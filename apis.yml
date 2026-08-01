@@ -1,19 +1,47 @@
 aid: spokn
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/spokn.png
 name: Spokn
-description: Spokn is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Spokn is an AI-powered short-form video creation platform built for internal
+  communications, HR, and learning & development teams. It lets organizations
+  collect selfie, full-screen, or screen-share clips from employees across
+  desktop and mobile, then stitch, trim, caption, translate (15 languages),
+  and brand them into polished employee videos in under 30 minutes without
+  video-editing expertise. Finished videos distribute via intranet, LMS,
+  Microsoft Teams, Slack, email, or MP4 export. Spokn integrates with common
+  HRIS (BambooHR, Workday, Zenefits, ADP, Rippling), SSO (Okta, OneLogin,
+  G Suite), and Slack, but does not currently publish a public developer API,
+  API reference, or developer portal. Backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/spokn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-enriched-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Video
+- Internal Communications
+- HR
+- Employee Engagement
+- Learning and Development
+- AI
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://getspokn.com
+  url: https://www.spokn.com
+- type: Blog
+  url: https://www.spokn.com/blog
+- type: Pricing
+  url: https://www.spokn.com/pricing
+- type: SignUp
+  url: https://app.getspokn.com
+- type: Support
+  url: https://www.spokn.com/contact-us
+- type: About
+  url: https://www.spokn.com/about-us
+- type: Integrations
+  url: https://www.spokn.com/integrations
+- type: DomainSecurity
+  url: security/spokn-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
